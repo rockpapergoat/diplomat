@@ -1,6 +1,7 @@
 require 'json'
 require 'base64'
 require 'faraday'
+require 'faraday_middleware'
 
 # Top level namespace ensures all required libraries are included and initializes the gem configration.
 module Diplomat
